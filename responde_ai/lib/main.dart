@@ -1,54 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'game_page.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      statusBarColor: Color(0xFF22BF76),
+      statusBarIconBrightness: Brightness.light,
+    ),
+  );
   runApp(const RespondeAi());
 }
 
-class RespondeAi extends StatefulWidget {
+class RespondeAi extends StatelessWidget {
   const RespondeAi({super.key});
-
-  @override
-  _RespondeAiState createState() => _RespondeAiState();
-}
-
-class _RespondeAiState extends State<RespondeAi> {
-  bool darkMode = false;
-  bool _isLoading = true;
-
-  @override
-  void initState() {
-    super.initState();
-    _loadDarkModePreference();
-  }
-
-  Future<void> _loadDarkModePreference() async {
-    final prefs = await SharedPreferences.getInstance();
-    if (mounted) {
-      setState(() {
-        darkMode = prefs.getBool('darkMode') ?? false;
-        _isLoading = false;
-      });
-      _applySystemOverlay();
-    }
-  }
-
-  Future<void> _saveDarkModePreference(bool value) async {
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setBool('darkMode', value);
-    _applySystemOverlay();
-  }
-
-  void _applySystemOverlay() {
-    SystemChrome.setSystemUIOverlayStyle(
-      SystemUiOverlayStyle(
-        statusBarColor: darkMode ? const Color(0xFF16151A) : Colors.white,
-        statusBarIconBrightness: darkMode ? Brightness.light : Brightness.dark,
-      ),
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -56,86 +23,210 @@ class _RespondeAiState extends State<RespondeAi> {
       debugShowCheckedModeBanner: false,
       title: 'RespondeAi',
       theme: ThemeData(
-        scaffoldBackgroundColor:
-            darkMode ? const Color(0xFF16151A) : Colors.white,
+        scaffoldBackgroundColor: const Color(0xFF22BF76),
       ),
-      home: _isLoading
-          ? const Scaffold(body: Center(child: CircularProgressIndicator()))
-          : HomeScreen(
-              darkMode: darkMode,
-              onDarkModeChanged: (value) {
-                setState(() {
-                  darkMode = value;
-                });
-                _saveDarkModePreference(value);
-              },
-            ),
+      home: const HomeScreen(),
     );
   }
 }
 
-class HomeScreen extends StatelessWidget {
-  final bool darkMode;
-  final ValueChanged<bool> onDarkModeChanged;
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
 
-  const HomeScreen(
-      {super.key, required this.darkMode, required this.onDarkModeChanged});
+  @override
+  _HomeScreenState createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  List<String>? rankings;
+  int highScore = 0;
+  bool hasPlayed = false;
+
+  @override
+  void initState() {
+    super.initState();
+    loadData();
+  }
+
+  Future<void> loadData() async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      rankings = prefs.getStringList('rankings');
+      highScore = prefs.getInt('highScore') ?? 0;
+      hasPlayed = prefs.getBool('hasPlayed') ?? false;
+      if (!hasPlayed && rankings != null) {
+        prefs.setBool('hasPlayed', true);
+        showRankingsDialog();
+      }
+    });
+  }
+
+  void showRankingsDialog() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text("Ranking"),
+        content: SingleChildScrollView(
+          child: Column(
+            children: rankings!
+                .map((rank) => Text(
+                      rank,
+                      style: const TextStyle(
+                          fontFamily: 'FredokaOne', fontSize: 16),
+                    ))
+                .toList(),
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text("OK"),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Future<void> _launchGitHub() async {
+    final Uri url = Uri.parse('https://github.com/vxncius-dev');
+    try {
+      if (await canLaunchUrl(url)) {
+        await launchUrl(url, mode: LaunchMode.externalApplication);
+      } else {
+        throw 'Não foi possível abrir o link';
+      }
+    } catch (e) {
+      debugPrint('Erro ao abrir GitHub: $e');
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: null,
       body: SafeArea(
-        child: Container(
-          width: double.infinity,
-          height: double.infinity,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                "RespondeAi",
-                style: TextStyle(
-                  fontFamily: 'MonsterGame',
-                  fontSize: 50,
-                  color: darkMode ? Colors.white : Colors.black,
+        child: Stack(
+          children: [
+            Container(
+              width: double.infinity,
+              height: double.infinity,
+              decoration: const BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage('assets/bg.png'),
+                  fit: BoxFit.cover,
                 ),
               ),
-              const SizedBox(height: 5),
-              GestureDetector(
-                onTap: () {
-                  debugPrint("Clicado!");
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => GamePage(darkMode: darkMode),
-                    ),
-                  );
-                },
-                child: Container(
-                  padding:
-                      const EdgeInsets.symmetric(vertical: 12, horizontal: 24),
-                  decoration: BoxDecoration(
-                    color: darkMode ? Colors.white : const Color(0xFF111111),
-                    borderRadius: BorderRadius.circular(50),
-                  ),
-                  child: Text(
-                    "Clique aqui",
+            ),
+            SizedBox(
+              width: double.infinity,
+              height: double.infinity,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Spacer(),
+                  const Text(
+                    "RespondeAi",
                     style: TextStyle(
-                      color: darkMode ? Colors.black : Colors.white,
                       fontFamily: 'FredokaOne',
-                      fontSize: 18,
+                      fontSize: 50,
+                      color: Colors.white,
                     ),
                   ),
-                ),
+                  const SizedBox(height: 20),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const GamePage(mode: 'classic'),
+                        ),
+                      ).then((_) => loadData());
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 20),
+                      decoration: BoxDecoration(
+                        color: const Color(0xFFd7693e),
+                        borderRadius: BorderRadius.circular(50),
+                      ),
+                      child: const Text(
+                        "Modo Clássico",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontFamily: 'FredokaOne',
+                          fontSize: 24,
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 20),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const GamePage(mode: 'timer'),
+                        ),
+                      ).then((_) => loadData());
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 20),
+                      decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.circular(50),
+                      ),
+                      child: const Text(
+                        "Timer (30s)",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontFamily: 'FredokaOne',
+                          fontSize: 24,
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 20),
+                  SizedBox(
+                    height: 190,
+                    width: double.infinity,
+                    child: OverflowBox(
+                      minWidth: 0.0,
+                      maxWidth: double.infinity,
+                      child: Image.asset(
+                        'assets/cards.png',
+                        width: MediaQuery.of(context).size.width * 1,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 15),
+                  Text(
+                    "Recorde: $highScore",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontFamily: 'FredokaOne',
+                      fontSize: 28,
+                    ),
+                  ),
+                  Spacer(),
+                  GestureDetector(
+                    onTap: _launchGitHub,
+                    child: const Text(
+                      "Desenvolvido por Vxncius",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontFamily: 'FredokaOne',
+                        fontSize: 16,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 30),
+                ],
               ),
-              const SizedBox(height: 50),
-              Switch(
-                value: darkMode,
-                onChanged: onDarkModeChanged,
-              ),
-              Text(darkMode ? "Modo Escuro" : "Modo Claro"),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );

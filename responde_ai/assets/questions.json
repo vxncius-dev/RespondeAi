@@ -1,0 +1,2588 @@
+[
+  {
+    "question": "Qual desses animais é um mamífero?",
+    "options": [
+      "Cobra",
+      "Tubarão",
+      "Golfinho",
+      "Polvo"
+    ],
+    "answer": "Golfinho",
+    "tipo": "Ciências"
+  },
+  {
+    "question": "Qual é a capital do Brasil?",
+    "options": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Brasília",
+      "Salvador"
+    ],
+    "answer": "Brasília",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem pintou a obra 'Mona Lisa'?",
+    "options": [
+      "Vincent van Gogh",
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Michelangelo"
+    ],
+    "answer": "Leonardo da Vinci",
+    "tipo": "Arte"
+  },
+  {
+    "question": "Qual é o planeta mais próximo do Sol?",
+    "options": [
+      "Terra",
+      "Vênus",
+      "Mercúrio",
+      "Marte"
+    ],
+    "answer": "Mercúrio",
+    "tipo": "Astronomia"
+  },
+  {
+    "question": "Em que ano o Brasil conquistou o pentacampeonato mundial de futebol?",
+    "options": [
+      "1994",
+      "1998",
+      "2002",
+      "2006"
+    ],
+    "answer": "2002",
+    "tipo": "Esportes"
+  },
+  {
+    "question": "Qual escritor brasileiro escreveu 'Grande Sertão: Veredas'?",
+    "options": [
+      "Machado de Assis",
+      "Clarice Lispector",
+      "Guimarães Rosa",
+      "Jorge Amado"
+    ],
+    "answer": "Guimarães Rosa",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual é o maior osso do corpo humano?",
+    "options": [
+      "Fêmur",
+      "Úmero",
+      "Tíbia",
+      "Crânio"
+    ],
+    "answer": "Fêmur",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual destes não é um elemento químico?",
+    "options": [
+      "Oxigênio",
+      "Água",
+      "Cálcio",
+      "Ferro"
+    ],
+    "answer": "Água",
+    "tipo": "Química"
+  },
+  {
+    "question": "Qual foi o diretor do filme 'Cidade de Deus'?",
+    "options": [
+      "Walter Salles",
+      "Fernando Meirelles",
+      "Glauber Rocha",
+      "José Padilha"
+    ],
+    "answer": "Fernando Meirelles",
+    "tipo": "Cinema"
+  },
+  {
+    "question": "Em que ano foi proclamada a República no Brasil?",
+    "options": [
+      "1822",
+      "1889",
+      "1888",
+      "1930"
+    ],
+    "answer": "1889",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é o maior rio do Brasil?",
+    "options": [
+      "Rio São Francisco",
+      "Rio Tietê",
+      "Rio Amazonas",
+      "Rio Paraná"
+    ],
+    "answer": "Rio Amazonas",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual é o metal líquido à temperatura ambiente?",
+    "options": [
+      "Ferro",
+      "Ouro",
+      "Mercúrio",
+      "Prata"
+    ],
+    "answer": "Mercúrio",
+    "tipo": "Química"
+  },
+  {
+    "question": "Qual cantora brasileira é conhecida como 'Rainha da Axé Music'?",
+    "options": [
+      "Ivete Sangalo",
+      "Claudia Leitte",
+      "Daniela Mercury",
+      "Anitta"
+    ],
+    "answer": "Daniela Mercury",
+    "tipo": "Música"
+  },
+  {
+    "question": "Quem escreveu o Hino Nacional Brasileiro?",
+    "options": [
+      "Castro Alves",
+      "Machado de Assis",
+      "Joaquim Osório Duque Estrada",
+      "Carlos Gomes"
+    ],
+    "answer": "Joaquim Osório Duque Estrada",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual a montanha mais alta do Brasil?",
+    "options": [
+      "Pico da Neblina",
+      "Pico da Bandeira",
+      "Monte Roraima",
+      "Pedra da Mina"
+    ],
+    "answer": "Pico da Neblina",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual destes não é um bioma brasileiro?",
+    "options": [
+      "Cerrado",
+      "Caatinga",
+      "Taiga",
+      "Pampa"
+    ],
+    "answer": "Taiga",
+    "tipo": "Ciências"
+  },
+  {
+    "question": "Quem foi o primeiro presidente do Brasil?",
+    "options": [
+      "Getúlio Vargas",
+      "Dom Pedro II",
+      "Marechal Deodoro da Fonseca",
+      "Juscelino Kubitschek"
+    ],
+    "answer": "Marechal Deodoro da Fonseca",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes instrumentos é tipicamente usado no samba?",
+    "options": [
+      "Violino",
+      "Pandeiro",
+      "Gaita",
+      "Harpa"
+    ],
+    "answer": "Pandeiro",
+    "tipo": "Música"
+  },
+  {
+    "question": "Quem é considerado o pai da aviação?",
+    "options": [
+      "Santos Dumont",
+      "Irmãos Wright",
+      "Graham Bell",
+      "Thomas Edison"
+    ],
+    "answer": "Santos Dumont",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é a maior floresta tropical do mundo?",
+    "options": [
+      "Floresta Amazônica",
+      "Mata Atlântica",
+      "Floresta do Congo",
+      "Floresta de Bornéu"
+    ],
+    "answer": "Floresta Amazônica",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual é o menor estado brasileiro em território?",
+    "options": [
+      "Alagoas",
+      "Sergipe",
+      "Rio de Janeiro",
+      "Espírito Santo"
+    ],
+    "answer": "Sergipe",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Que fenômeno explica as quatro estações do ano?",
+    "options": [
+      "Rotação da Terra",
+      "Translação da Terra",
+      "Inclinação do eixo terrestre",
+      "Gravidade lunar"
+    ],
+    "answer": "Inclinação do eixo terrestre",
+    "tipo": "Astronomia"
+  },
+  {
+    "question": "Qual é o nome do processo de conversão de luz em energia química pelas plantas?",
+    "options": [
+      "Respiração",
+      "Fotossíntese",
+      "Quimiossíntese",
+      "Fermentação"
+    ],
+    "answer": "Fotossíntese",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Quem dirigiu o filme 'Central do Brasil'?",
+    "options": [
+      "Fernando Meirelles",
+      "Walter Salles",
+      "Kleber Mendonça Filho",
+      "Bruno Barreto"
+    ],
+    "answer": "Walter Salles",
+    "tipo": "Cinema"
+  },
+  {
+    "question": "Qual dessas obras não foi escrita por Machado de Assis?",
+    "options": [
+      "Dom Casmurro",
+      "Memórias Póstumas de Brás Cubas",
+      "O Cortiço",
+      "Quincas Borba"
+    ],
+    "answer": "O Cortiço",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual é o principal ingrediente da caipirinha?",
+    "options": [
+      "Vodka",
+      "Rum",
+      "Cachaça",
+      "Tequila"
+    ],
+    "answer": "Cachaça",
+    "tipo": "Culinária"
+  },
+  {
+    "question": "Qual é o rio que atravessa a cidade de São Paulo?",
+    "options": [
+      "Rio Pinheiros",
+      "Rio Tietê",
+      "Rio Tamanduateí",
+      "Rio Paraná"
+    ],
+    "answer": "Rio Tietê",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual é o nome do processo que transforma açúcar em álcool?",
+    "options": [
+      "Fermentação",
+      "Destilação",
+      "Decantação",
+      "Filtração"
+    ],
+    "answer": "Fermentação",
+    "tipo": "Química"
+  },
+  {
+    "question": "Qual é a unidade básica dos seres vivos?",
+    "options": [
+      "Átomo",
+      "Molécula",
+      "Célula",
+      "Tecido"
+    ],
+    "answer": "Célula",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Quem compôs 'O Guarani'?",
+    "options": [
+      "Villa-Lobos",
+      "Carlos Gomes",
+      "Tom Jobim",
+      "Chiquinha Gonzaga"
+    ],
+    "answer": "Carlos Gomes",
+    "tipo": "Música"
+  },
+  {
+    "question": "Qual destes não é um dos cinco sentidos humanos tradicionais?",
+    "options": [
+      "Visão",
+      "Audição",
+      "Equilíbrio",
+      "Tato"
+    ],
+    "answer": "Equilíbrio",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Em que região do Brasil fica o Pantanal?",
+    "options": [
+      "Norte",
+      "Nordeste",
+      "Centro-Oeste",
+      "Sul"
+    ],
+    "answer": "Centro-Oeste",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem foi Zumbi dos Palmares?",
+    "options": [
+      "Um bandeirante",
+      "Um líder quilombola",
+      "Um imperador brasileiro",
+      "Um artista modernista"
+    ],
+    "answer": "Um líder quilombola",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes não é um estado da região Nordeste?",
+    "options": [
+      "Bahia",
+      "Maranhão",
+      "Espírito Santo",
+      "Pernambuco"
+    ],
+    "answer": "Espírito Santo",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual foi o primeiro filme brasileiro indicado ao Oscar de melhor filme estrangeiro?",
+    "options": [
+      "Central do Brasil",
+      "O Pagador de Promessas",
+      "Cidade de Deus",
+      "O Quatrilho"
+    ],
+    "answer": "O Pagador de Promessas",
+    "tipo": "Cinema"
+  },
+  {
+    "question": "Qual destes oceanos não banha o Brasil?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Pacífico",
+      "Oceano Índico",
+      "Mar do Caribe"
+    ],
+    "answer": "Oceano Pacífico",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem foi o autor da música 'Aquarela do Brasil'?",
+    "options": [
+      "Ary Barroso",
+      "Pixinguinha",
+      "Noel Rosa",
+      "Vinícius de Moraes"
+    ],
+    "answer": "Ary Barroso",
+    "tipo": "Música"
+  },
+  {
+    "question": "Qual destes animais é endêmico da fauna brasileira?",
+    "options": [
+      "Leão",
+      "Girafa",
+      "Mico-leão-dourado",
+      "Panda"
+    ],
+    "answer": "Mico-leão-dourado",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual é a capital do estado do Amazonas?",
+    "options": [
+      "Belém",
+      "Boa Vista",
+      "Rio Branco",
+      "Manaus"
+    ],
+    "answer": "Manaus",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem é o autor do romance 'Memórias Póstumas de Brás Cubas'?",
+    "options": [
+      "José de Alencar",
+      "Machado de Assis",
+      "Lima Barreto",
+      "Euclides da Cunha"
+    ],
+    "answer": "Machado de Assis",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "O que significa a sigla DNA?",
+    "options": [
+      "Ácido Desoxirribonucleico",
+      "Ácido Ribonucleico",
+      "Ácido Dioxirribose Nuclear",
+      "Adenina Nucleica Ativa"
+    ],
+    "answer": "Ácido Desoxirribonucleico",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual dos seguintes não é um instrumento de cordas?",
+    "options": [
+      "Violão",
+      "Violino",
+      "Flauta",
+      "Harpa"
+    ],
+    "answer": "Flauta",
+    "tipo": "Música"
+  },
+  {
+    "question": "Qual é o maior animal terrestre?",
+    "options": [
+      "Girafa",
+      "Rinoceronte",
+      "Elefante africano",
+      "Hipopótamo"
+    ],
+    "answer": "Elefante africano",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Em qual cidade brasileira fica o Cristo Redentor?",
+    "options": [
+      "Salvador",
+      "Rio de Janeiro",
+      "São Paulo",
+      "Brasília"
+    ],
+    "answer": "Rio de Janeiro",
+    "tipo": "Turismo"
+  },
+  {
+    "question": "Qual destes nomes não foi um presidente do Brasil?",
+    "options": [
+      "Fernando Henrique Cardoso",
+      "Itamar Franco",
+      "Tancredo Neves",
+      "Lula"
+    ],
+    "answer": "Tancredo Neves",
+    "tipo": "História"
+  },
+  {
+    "question": "O que é fotossíntese?",
+    "options": [
+      "Processo de respiração das plantas",
+      "Processo de produção de alimento pelas plantas usando luz solar",
+      "Processo de reprodução das plantas",
+      "Processo de germinação das sementes"
+    ],
+    "answer": "Processo de produção de alimento pelas plantas usando luz solar",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual destes não é um estado da região Norte do Brasil?",
+    "options": [
+      "Acre",
+      "Amapá",
+      "Amazonas",
+      "Maranhão"
+    ],
+    "answer": "Maranhão",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem foi Aleijadinho?",
+    "options": [
+      "Um escritor modernista",
+      "Um escultor e arquiteto do período colonial",
+      "Um político do Império",
+      "Um pintor contemporâneo"
+    ],
+    "answer": "Um escultor e arquiteto do período colonial",
+    "tipo": "Arte"
+  },
+  {
+    "question": "Qual destes estados não faz fronteira com o Oceano Atlântico?",
+    "options": [
+      "Bahia",
+      "Goiás",
+      "Rio de Janeiro",
+      "Ceará"
+    ],
+    "answer": "Goiás",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual destes personagens não pertence ao folclore brasileiro?",
+    "options": [
+      "Saci-Pererê",
+      "Curupira",
+      "Leprechaun",
+      "Boto Cor-de-Rosa"
+    ],
+    "answer": "Leprechaun",
+    "tipo": "Cultura"
+  },
+  {
+    "question": "Em qual século o Brasil foi descoberto pelos portugueses?",
+    "options": [
+      "Século XIV",
+      "Século XV",
+      "Século XVI",
+      "Século XVII"
+    ],
+    "answer": "Século XVI",
+    "tipo": "História"
+  },
+  {
+    "question": "Quantos jogadores compõem cada time em uma partida oficial de futebol?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "11",
+    "tipo": "Esportes"
+  },
+  {
+    "question": "Qual é o segundo maior país da América do Sul?",
+    "options": [
+      "Brasil",
+      "Argentina",
+      "Colômbia",
+      "Peru"
+    ],
+    "answer": "Argentina",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "De onde se extrai a insulina usada por diabéticos?",
+    "options": [
+      "Fígado de boi",
+      "Pâncreas de porco",
+      "Glândulas salivares",
+      "Vesícula biliar"
+    ],
+    "answer": "Pâncreas de porco",
+    "tipo": "Medicina"
+  },
+  {
+    "question": "Em que ano foi abolida a escravidão no Brasil?",
+    "options": [
+      "1822",
+      "1850",
+      "1888",
+      "1889"
+    ],
+    "answer": "1888",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é o nome do teatro de ópera localizado em Manaus?",
+    "options": [
+      "Teatro Amazonas",
+      "Teatro Municipal",
+      "Teatro da Paz",
+      "Teatro Nacional"
+    ],
+    "answer": "Teatro Amazonas",
+    "tipo": "Cultura"
+  },
+  {
+    "question": "Qual destes não é um país que faz fronteira com o Brasil?",
+    "options": [
+      "Argentina",
+      "Uruguai",
+      "Chile",
+      "Paraguai"
+    ],
+    "answer": "Chile",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem escreveu o livro 'O Guarani'?",
+    "options": [
+      "Machado de Assis",
+      "José de Alencar",
+      "Graciliano Ramos",
+      "Jorge Amado"
+    ],
+    "answer": "José de Alencar",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual é a moeda oficial do Brasil?",
+    "options": [
+      "Peso",
+      "Real",
+      "Cruzeiro",
+      "Dólar"
+    ],
+    "answer": "Real",
+    "tipo": "Economia"
+  },
+  {
+    "question": "Qual era o nome do Brasil antes de se tornar República?",
+    "options": [
+      "Brasil Colônia",
+      "Brasil Império",
+      "Estados Unidos do Brasil",
+      "Reino Unido de Portugal e Brasil"
+    ],
+    "answer": "Brasil Império",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes atores não é brasileiro?",
+    "options": [
+      "Wagner Moura",
+      "Alice Braga",
+      "Antonio Banderas",
+      "Fernanda Montenegro"
+    ],
+    "answer": "Antonio Banderas",
+    "tipo": "Cinema"
+  },
+  {
+    "question": "Qual é o nome dado à vegetação típica do Nordeste brasileiro?",
+    "options": [
+      "Cerrado",
+      "Caatinga",
+      "Mata Atlântica",
+      "Pampas"
+    ],
+    "answer": "Caatinga",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual é o maior animal do planeta?",
+    "options": [
+      "Elefante africano",
+      "Baleia-azul",
+      "Tubarão-baleia",
+      "Girafa"
+    ],
+    "answer": "Baleia-azul",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Em que ano foi fundada a cidade de São Paulo?",
+    "options": [
+      "1500",
+      "1554",
+      "1565",
+      "1612"
+    ],
+    "answer": "1554",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é o nome do movimento artístico que teve seu auge na Semana de Arte Moderna de 1922?",
+    "options": [
+      "Barroco",
+      "Impressionismo",
+      "Modernismo",
+      "Romantismo"
+    ],
+    "answer": "Modernismo",
+    "tipo": "Arte"
+  },
+  {
+    "question": "Qual destes países não fala português como língua oficial?",
+    "options": [
+      "Angola",
+      "Moçambique",
+      "Brasil",
+      "México"
+    ],
+    "answer": "México",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "O que é um fonema?",
+    "options": [
+      "Uma palavra",
+      "Um conjunto de letras",
+      "A menor unidade sonora de uma língua",
+      "Um tipo de verbo"
+    ],
+    "answer": "A menor unidade sonora de uma língua",
+    "tipo": "Linguística"
+  },
+  {
+    "question": "Quem foi Pedro Álvares Cabral?",
+    "options": [
+      "O primeiro presidente do Brasil",
+      "O navegador português que chegou ao Brasil em 1500",
+      "O imperador do Brasil",
+      "Um bandeirante paulista"
+    ],
+    "answer": "O navegador português que chegou ao Brasil em 1500",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é o estilo musical típico do Rio Grande do Sul?",
+    "options": [
+      "Forró",
+      "Axé",
+      "Samba",
+      "Vanera"
+    ],
+    "answer": "Vanera",
+    "tipo": "Música"
+  },
+  {
+    "question": "Qual é a maior hidrelétrica em operação no Brasil?",
+    "options": [
+      "Itaipu",
+      "Belo Monte",
+      "Tucuruí",
+      "Furnas"
+    ],
+    "answer": "Itaipu",
+    "tipo": "Engenharia"
+  },
+  {
+    "question": "Qual destes é considerado um símbolo da arquitetura modernista brasileira?",
+    "options": [
+      "Catedral da Sé",
+      "Cristo Redentor",
+      "Catedral de Brasília",
+      "Teatro Amazonas"
+    ],
+    "answer": "Catedral de Brasília",
+    "tipo": "Arquitetura"
+  },
+  {
+    "question": "Quem é o autor do quadro 'Abaporu'?",
+    "options": [
+      "Di Cavalcanti",
+      "Anita Malfatti",
+      "Tarsila do Amaral",
+      "Candido Portinari"
+    ],
+    "answer": "Tarsila do Amaral",
+    "tipo": "Arte"
+  },
+  {
+    "question": "Em que estado brasileiro fica o Parque Nacional dos Lençóis Maranhenses?",
+    "options": [
+      "Ceará",
+      "Rio Grande do Norte",
+      "Maranhão",
+      "Piauí"
+    ],
+    "answer": "Maranhão",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "De que é composto o núcleo do átomo?",
+    "options": [
+      "Prótons e nêutrons",
+      "Elétrons e prótons",
+      "Elétrons e nêutrons",
+      "Apenas prótons"
+    ],
+    "answer": "Prótons e nêutrons",
+    "tipo": "Física"
+  },
+  {
+    "question": "O Brasil já sediou quantas Copas do Mundo de futebol?",
+    "options": [
+      "Uma",
+      "Duas",
+      "Três",
+      "Nenhuma"
+    ],
+    "answer": "Duas",
+    "tipo": "Esportes"
+  },
+  {
+    "question": "Qual o nome do atual conjunto de regras ortográficas da língua portuguesa?",
+    "options": [
+      "Acordo Ortográfico da Língua Portuguesa",
+      "Reforma Ortográfica Brasileira",
+      "Novo Léxico Gramatical",
+      "Convenção Lusófona"
+    ],
+    "answer": "Acordo Ortográfico da Língua Portuguesa",
+    "tipo": "Linguística"
+  },
+  {
+    "question": "Qual dessas cidades não é capital de estado?",
+    "options": [
+      "Florianópolis",
+      "Campinas",
+      "Porto Alegre",
+      "Vitória"
+    ],
+    "answer": "Campinas",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual dessas obras é de Carlos Drummond de Andrade?",
+    "options": [
+      "Morte e Vida Severina",
+      "Grande Sertão: Veredas",
+      "A Rosa do Povo",
+      "Macunaíma"
+    ],
+    "answer": "A Rosa do Povo",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual desses não é um dos Três Poderes do Estado brasileiro?",
+    "options": [
+      "Executivo",
+      "Legislativo",
+      "Judiciário",
+      "Moderador"
+    ],
+    "answer": "Moderador",
+    "tipo": "Política"
+  },
+  {
+    "question": "O que é Bossa Nova?",
+    "options": [
+      "Um ritmo musical",
+      "Um movimento literário",
+      "Um prato típico",
+      "Um tipo de dança folclórica"
+    ],
+    "answer": "Um ritmo musical",
+    "tipo": "Música"
+  },
+  {
+    "question": "Quem foi a primeira mulher presidente do Brasil?",
+    "options": [
+      "Marina Silva",
+      "Dilma Rousseff",
+      "Fernanda Montenegro",
+      "Maria da Penha"
+    ],
+    "answer": "Dilma Rousseff",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual a composição química da água?",
+    "options": [
+      "HO",
+      "H2O",
+      "H2O2",
+      "HO2"
+    ],
+    "answer": "H2O",
+    "tipo": "Química"
+  },
+  {
+    "question": "Qual destes artistas é conhecido como 'Rei do Baião'?",
+    "options": [
+      "Gilberto Gil",
+      "Luiz Gonzaga",
+      "Dominguinhos",
+      "Alceu Valença"
+    ],
+    "answer": "Luiz Gonzaga",
+    "tipo": "Música"
+  },
+  {
+    "question": "Em que ano o Brasil se tornou independente de Portugal?",
+    "options": [
+      "1500",
+      "1789",
+      "1822",
+      "1889"
+    ],
+    "answer": "1822",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é o principal componente do sal de cozinha?",
+    "options": [
+      "Cloreto de sódio",
+      "Bicarbonato de sódio",
+      "Sulfato de magnésio",
+      "Carbonato de cálcio"
+    ],
+    "answer": "Cloreto de sódio",
+    "tipo": "Química"
+  },
+  {
+    "question": "Qual destes não é um rio brasileiro?",
+    "options": [
+      "Rio São Francisco",
+      "Rio Paraná",
+      "Rio Amazonas",
+      "Rio Nilo"
+    ],
+    "answer": "Rio Nilo",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual foi o primeiro presidente civil após o regime militar brasileiro?",
+    "options": [
+      "Tancredo Neves",
+      "José Sarney",
+      "Fernando Collor",
+      "Itamar Franco"
+    ],
+    "answer": "José Sarney",
+    "tipo": "História"
+  },
+  {
+    "question": "O que é um ecossistema?",
+    "options": [
+      "Conjunto de seres da mesma espécie",
+      "Sistema econômico sustentável",
+      "Conjunto de seres vivos e elementos não vivos interagindo",
+      "Sistema de reciclagem"
+    ],
+    "answer": "Conjunto de seres vivos e elementos não vivos interagindo",
+    "tipo": "Ecologia"
+  },
+  {
+    "question": "Qual destes não é um dos estados da região Sul do Brasil?",
+    "options": [
+      "Paraná",
+      "Santa Catarina",
+      "Rio Grande do Sul",
+      "São Paulo"
+    ],
+    "answer": "São Paulo",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem compôs o Hino da Independência do Brasil?",
+    "options": [
+      "Dom Pedro I",
+      "Carlos Gomes",
+      "Francisco Manuel da Silva",
+      "José Joaquim de Campos"
+    ],
+    "answer": "Dom Pedro I",
+    "tipo": "História"
+  },
+  {
+    "question": "O que é um substantivo?",
+    "options": [
+      "Palavra que indica ação",
+      "Palavra que nomeia seres, objetos, lugares",
+      "Palavra que modifica o verbo",
+      "Palavra que substitui o nome"
+    ],
+    "answer": "Palavra que nomeia seres, objetos, lugares",
+    "tipo": "Gramática"
+  },
+  {
+    "question": "Qual é a capital do estado de Minas Gerais?",
+    "options": [
+      "Ouro Preto",
+      "Juiz de Fora",
+      "Belo Horizonte",
+      "Uberlândia"
+    ],
+    "answer": "Belo Horizonte",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Em que ano ocorreu a primeira transmissão de televisão no Brasil?",
+    "options": [
+      "1950",
+      "1960",
+      "1970",
+      "1980"
+    ],
+    "answer": "1950",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é a fórmula química do gás carbônico?",
+    "options": [
+      "CO",
+      "CO2",
+      "C2O",
+      "O2C"
+    ],
+    "answer": "CO2",
+    "tipo": "Química"
+  },
+  {
+    "question": "Qual é o nome do maior aquífero do mundo, que fica parcialmente no Brasil?",
+    "options": [
+      "Aquífero Amazonas",
+      "Aquífero Guarani",
+      "Aquífero Alter do Chão",
+      "Aquífero Bambuí"
+    ],
+    "answer": "Aquífero Guarani",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem é considerado o patrono da aviação brasileira?",
+    "options": [
+      "Santos Dumont",
+      "Bartolomeu de Gusmão",
+      "Amyr Klink",
+      "Ayrton Senna"
+    ],
+    "answer": "Santos Dumont",
+    "tipo": "História"
+  },
+  {
+    "question": "Quantos estados tem o Brasil?",
+    "options": [
+      "25",
+      "26",
+      "27",
+      "28"
+    ],
+    "answer": "26",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual a função principal do pâncreas no corpo humano?",
+    "options": [
+      "Filtrar o sangue",
+      "Produzir hormônios como insulina e enzimas digestivas",
+      "Regular a temperatura corporal",
+      "Armazenar vitaminas"
+    ],
+    "answer": "Produzir hormônios como insulina e enzimas digestivas",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Em que ano foi inaugurada Brasília como capital do Brasil?",
+    "options": [
+      "1955",
+      "1960",
+      "1965",
+      "1970"
+    ],
+    "answer": "1960",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes não é um patrimônio mundial da UNESCO no Brasil?",
+    "options": [
+      "Centro Histórico de Salvador",
+      "Centro Histórico de Ouro Preto",
+      "Cristo Redentor",
+      "Torre Eiffel"
+    ],
+    "answer": "Torre Eiffel",
+    "tipo": "Cultura"
+  },
+  {
+    "question": "O que é um adjetivo?",
+    "options": [
+      "Palavra que substitui o substantivo",
+      "Palavra que indica ação",
+      "Palavra que caracteriza o substantivo",
+      "Palavra que liga orações"
+    ],
+    "answer": "Palavra que caracteriza o substantivo",
+    "tipo": "Gramática"
+  },
+  {
+    "question": "Qual o nome do movimento político que derrubou a monarquia no Brasil?",
+    "options": [
+      "Inconfidência Mineira",
+      "Revolução Farroupilha",
+      "Proclamação da República",
+      "Guerra dos Farrapos"
+    ],
+    "answer": "Proclamação da República",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é o maior deserto do mundo?",
+    "options": [
+      "Saara",
+      "Atacama",
+      "Gobi",
+      "Antártida"
+    ],
+    "answer": "Antártida",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual destes animais não é um mamífero?",
+    "options": [
+      "Baleia",
+      "Golfinho",
+      "Tubarão",
+      "Morcego"
+    ],
+    "answer": "Tubarão",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual é a ciência que estuda os astros?",
+    "options": [
+      "Astrologia",
+      "Astronomia",
+      "Cosmologia",
+      "Meteorologia"
+    ],
+    "answer": "Astronomia",
+    "tipo": "Ciências"
+  },
+  {
+    "question": "Onde foi realizada a primeira Copa do Mundo de futebol?",
+    "options": [
+      "Brasil",
+      "Uruguai",
+      "França",
+      "Inglaterra"
+    ],
+    "answer": "Uruguai",
+    "tipo": "Esportes"
+  },
+  {
+    "question": "Qual destes instrumentos é típico da música nordestina?",
+    "options": [
+      "Guitarra elétrica",
+      "Zabumba",
+      "Violino",
+      "Saxofone"
+    ],
+    "answer": "Zabumba",
+    "tipo": "Música"
+  },
+  {
+    "question": "Qual a principal função dos rins no corpo humano?",
+    "options": [
+      "Digerir alimentos",
+      "Filtrar o sangue e produzir urina",
+      "Transportar oxigênio",
+      "Regular a temperatura corporal"
+    ],
+    "answer": "Filtrar o sangue e produzir urina",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual destas não é uma das sete maravilhas do mundo moderno?",
+    "options": [
+      "Cristo Redentor",
+      "Pirâmides de Gizé",
+      "Coliseu",
+      "Taj Mahal"
+    ],
+    "answer": "Pirâmides de Gizé",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem pintou o quadro 'Guernica'?",
+    "options": [
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Vincent van Gogh"
+    ],
+    "answer": "Pablo Picasso",
+    "tipo": "Arte"
+  },
+  {
+    "question": "Qual destes países não faz fronteira com o Brasil?",
+    "options": [
+      "Peru",
+      "Equador",
+      "Venezuela",
+      "Colômbia"
+    ],
+    "answer": "Equador",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual destes não é um planeta do sistema solar?",
+    "options": [
+      "Vênus",
+      "Júpiter",
+      "Plutão",
+      "Marte"
+    ],
+    "answer": "Plutão",
+    "tipo": "Astronomia"
+  },
+  {
+    "question": "Quem escreveu 'Os Lusíadas'?",
+    "options": [
+      "Fernando Pessoa",
+      "Camões",
+      "José Saramago",
+      "Eça de Queirós"
+    ],
+    "answer": "Camões",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual é a capital do Tocantins?",
+    "options": [
+      "Araguaína",
+      "Gurupi",
+      "Palmas",
+      "Porto Nacional"
+    ],
+    "answer": "Palmas",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "O que são proteínas?",
+    "options": [
+      "Moléculas compostas por aminoácidos",
+      "Fontes de energia imediata",
+      "Moléculas de gordura",
+      "Açúcares"
+    ],
+    "answer": "Moléculas compostas por aminoácidos",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual é o maior produtor de café do Brasil?",
+    "options": [
+      "São Paulo",
+      "Minas Gerais",
+      "Paraná",
+      "Bahia"
+    ],
+    "answer": "Minas Gerais",
+    "tipo": "Economia"
+  },
+  {
+    "question": "Qual destes não é um órgão do corpo humano?",
+    "options": [
+      "Coração",
+      "Pulmão",
+      "Fígado",
+      "Tênis"
+    ],
+    "answer": "Tênis",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Quem foi Carmen Miranda?",
+    "options": [
+      "Uma atriz e cantora brasileira",
+      "Uma cientista renomada",
+      "Uma política importante",
+      "Uma escritora famosa"
+    ],
+    "answer": "Uma atriz e cantora brasileira",
+    "tipo": "Cultura"
+  },
+  {
+    "question": "Em qual data se comemora a Independência do Brasil?",
+    "options": [
+      "7 de abril",
+      "7 de setembro",
+      "15 de novembro",
+      "25 de dezembro"
+    ],
+    "answer": "7 de setembro",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é o maior exportador de soja do mundo?",
+    "options": [
+      "Estados Unidos",
+      "China",
+      "Brasil",
+      "Índia"
+    ],
+    "answer": "Brasil",
+    "tipo": "Economia"
+  },
+  {
+    "question": "Qual destas não é uma fase do desenvolvimento de um sapo?",
+    "options": [
+      "Ovo",
+      "Girino",
+      "Metamorfose",
+      "Pupa"
+    ],
+    "answer": "Pupa",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Quem é o autor de 'Dom Casmurro'?",
+    "options": [
+      "Machado de Assis",
+      "José de Alencar",
+      "Graciliano Ramos",
+      "Jorge Amado"
+    ],
+    "answer": "Machado de Assis",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual a capital do Acre?",
+    "options": [
+      "Porto Velho",
+      "Rio Branco",
+      "Boa Vista",
+      "Macapá"
+    ],
+    "answer": "Rio Branco",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "O que significa DNA?",
+    "options": [
+      "Divisão Nuclear Artificial",
+      "Demonstração Natural de Aptidão",
+      "Ácido Desoxirribonucleico",
+      "Desenvolvimento Nominal Avançado"
+    ],
+    "answer": "Ácido Desoxirribonucleico",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual destes não é um dos cinco sentidos humanos?",
+    "options": [
+      "Paladar",
+      "Audição",
+      "Intuição",
+      "Tato"
+    ],
+    "answer": "Intuição",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Quem foi Chiquinha Gonzaga?",
+    "options": [
+      "Uma cantora contemporânea",
+      "Uma compositora e pianista brasileira do século XIX",
+      "Uma atriz de novelas",
+      "Uma política feminista recente"
+    ],
+    "answer": "Uma compositora e pianista brasileira do século XIX",
+    "tipo": "Música"
+  },
+  {
+    "question": "Qual era o nome oficial do Brasil durante o período imperial?",
+    "options": [
+      "Reino do Brasil",
+      "Império do Brasil",
+      "Estados Unidos do Brasil",
+      "República Federativa do Brasil"
+    ],
+    "answer": "Império do Brasil",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes não é um continente?",
+    "options": [
+      "África",
+      "Europa",
+      "América",
+      "Austrália",
+      "Atlântida"
+    ],
+    "answer": "Atlântida",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual é o segundo maior oceano do mundo?",
+    "options": [
+      "Atlântico",
+      "Pacífico",
+      "Índico",
+      "Ártico"
+    ],
+    "answer": "Atlântico",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem foi Monteiro Lobato?",
+    "options": [
+      "Um político",
+      "Um escritor",
+      "Um pintor",
+      "Um músico"
+    ],
+    "answer": "Um escritor",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual destes países não pertence à América do Sul?",
+    "options": [
+      "Chile",
+      "Equador",
+      "Paraguai",
+      "Panamá"
+    ],
+    "answer": "Panamá",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem foi Manuel Bandeira?",
+    "options": [
+      "Um político brasileiro",
+      "Um poeta brasileiro",
+      "Um jogador de futebol",
+      "Um cientista brasileiro"
+    ],
+    "answer": "Um poeta brasileiro",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual é o clima predominante no Nordeste brasileiro?",
+    "options": [
+      "Equatorial",
+      "Tropical",
+      "Semiárido",
+      "Subtropical"
+    ],
+    "answer": "Semiárido",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem é considerado o pai da física moderna?",
+    "options": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Galileu Galilei",
+      "Stephen Hawking"
+    ],
+    "answer": "Albert Einstein",
+    "tipo": "Ciências"
+  },
+  {
+    "question": "Qual destas não é uma fruta típica brasileira?",
+    "options": [
+      "Jabuticaba",
+      "Cupuaçu",
+      "Açaí",
+      "Kiwi"
+    ],
+    "answer": "Kiwi",
+    "tipo": "Culinária"
+  },
+  {
+    "question": "Em que ano foi assinada a Lei Áurea?",
+    "options": [
+      "1822",
+      "1888",
+      "1889",
+      "1900"
+    ],
+    "answer": "1888",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes pintores não é brasileiro?",
+    "options": [
+      "Tarsila do Amaral",
+      "Di Cavalcanti",
+      "Anita Malfatti",
+      "Pablo Picasso"
+    ],
+    "answer": "Pablo Picasso",
+    "tipo": "Arte"
+  },
+  {
+    "question": "Qual a língua oficial do Brasil?",
+    "options": [
+      "Espanhol",
+      "Inglês",
+      "Português",
+      "Francês"
+    ],
+    "answer": "Português",
+    "tipo": "Cultura"
+  },
+  {
+    "question": "Qual destes feriados nacionais comemora um santo católico?",
+    "options": [
+      "Tiradentes",
+      "Proclamação da República",
+      "Nossa Senhora Aparecida",
+      "Independência do Brasil"
+    ],
+    "answer": "Nossa Senhora Aparecida",
+    "tipo": "Cultura"
+  },
+  {
+    "question": "O que é um sinônimo?",
+    "options": [
+      "Palavra com sentido oposto",
+      "Palavra com mesma grafia",
+      "Palavra com sentido semelhante",
+      "Palavra com mesma origem"
+    ],
+    "answer": "Palavra com sentido semelhante",
+    "tipo": "Gramática"
+  },
+  {
+    "question": "Qual a capital do estado do Pará?",
+    "options": [
+      "Manaus",
+      "Belém",
+      "São Luís",
+      "Macapá"
+    ],
+    "answer": "Belém",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual foi o primeiro astronauta brasileiro a ir ao espaço?",
+    "options": [
+      "Marcos Pontes",
+      "Ayrton Senna",
+      "Santos Dumont",
+      "Oscar Niemeyer"
+    ],
+    "answer": "Marcos Pontes",
+    "tipo": "Ciência e Tecnologia"
+  },
+  {
+    "question": "O que são lipídios?",
+    "options": [
+      "Proteínas",
+      "Carboidratos",
+      "Gorduras e substâncias relacionadas",
+      "Vitaminas"
+    ],
+    "answer": "Gorduras e substâncias relacionadas",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual destes não pertence ao folclore brasileiro?",
+    "options": [
+      "Saci-Pererê",
+      "Curupira",
+      "Boitatá",
+      "Minotauro"
+    ],
+    "answer": "Minotauro",
+    "tipo": "Cultura"
+  },
+  {
+    "question": "Quem foi o inventor do avião?",
+    "options": [
+      "Wright Brothers",
+      "Santos Dumont",
+      "Thomas Edison",
+      "Alexander Graham Bell"
+    ],
+    "answer": "Santos Dumont",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é a capital do Rio Grande do Sul?",
+    "options": [
+      "Florianópolis",
+      "Curitiba",
+      "Porto Alegre",
+      "São Paulo"
+    ],
+    "answer": "Porto Alegre",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual o nome do primeiro álbum dos Beatles?",
+    "options": [
+      "Help!",
+      "Please Please Me",
+      "Abbey Road",
+      "Sgt. Pepper's Lonely Hearts Club Band"
+    ],
+    "answer": "Please Please Me",
+    "tipo": "Música"
+  },
+  {
+    "question": "Qual é o maior animal terrestre da fauna brasileira?",
+    "options": [
+      "Onça-pintada",
+      "Anta",
+      "Capivara",
+      "Tamanduá-bandeira"
+    ],
+    "answer": "Anta",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Quem escreveu 'Memórias de um Sargento de Milícias'?",
+    "options": [
+      "Machado de Assis",
+      "Manuel Antônio de Almeida",
+      "José de Alencar",
+      "Euclides da Cunha"
+    ],
+    "answer": "Manuel Antônio de Almeida",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual é o ponto mais alto do Brasil?",
+    "options": [
+      "Pico da Neblina",
+      "Pico da Bandeira",
+      "Pico das Agulhas Negras",
+      "Monte Roraima"
+    ],
+    "answer": "Pico da Neblina",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual destes é um instrumento de percussão?",
+    "options": [
+      "Flauta",
+      "Violão",
+      "Saxofone",
+      "Tambor"
+    ],
+    "answer": "Tambor",
+    "tipo": "Música"
+  },
+  {
+    "question": "O que é um substantivo coletivo?",
+    "options": [
+      "Substantivo que indica profissão",
+      "Substantivo que indica conjunto",
+      "Substantivo que indica lugar",
+      "Substantivo que indica tempo"
+    ],
+    "answer": "Substantivo que indica conjunto",
+    "tipo": "Gramática"
+  },
+  {
+    "question": "Em que ano foi fundada a cidade do Rio de Janeiro?",
+    "options": [
+      "1500",
+      "1565",
+      "1554",
+      "1612"
+    ],
+    "answer": "1565",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes é um réptil?",
+    "options": [
+      "Sapo",
+      "Baleia",
+      "Lagarto",
+      "Morcego"
+    ],
+    "answer": "Lagarto",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Quem foi Lampião?",
+    "options": [
+      "Um presidente brasileiro",
+      "Um cangaceiro do Nordeste",
+      "Um compositor de música",
+      "Um arquiteto modernista"
+    ],
+    "answer": "Um cangaceiro do Nordeste",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes não é um tipo de energia renovável?",
+    "options": [
+      "Solar",
+      "Eólica",
+      "Nuclear",
+      "Hidrelétrica"
+    ],
+    "answer": "Nuclear",
+    "tipo": "Ciências"
+  },
+  {
+    "question": "Quem foi Maria Quitéria?",
+    "options": [
+      "Uma atriz famosa",
+      "Uma heroína da independência",
+      "Uma cantora de ópera",
+      "Uma escritora modernista"
+    ],
+    "answer": "Uma heroína da independência",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes não é um bioma marinho?",
+    "options": [
+      "Recifes de Coral",
+      "Mangue",
+      "Cerrado",
+      "Mar profundo"
+    ],
+    "answer": "Cerrado",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Em qual cidade ocorreu a Inconfidência Mineira?",
+    "options": [
+      "Rio de Janeiro",
+      "Salvador",
+      "Ouro Preto",
+      "Sabará"
+    ],
+    "answer": "Ouro Preto",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é a capital de Santa Catarina?",
+    "options": [
+      "Joinville",
+      "Florianópolis",
+      "Blumenau",
+      "Balneário Camboriú"
+    ],
+    "answer": "Florianópolis",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem compôs a música 'Garota de Ipanema'?",
+    "options": [
+      "Tom Jobim e Vinícius de Moraes",
+      "Chico Buarque",
+      "Caetano Veloso",
+      "João Gilberto"
+    ],
+    "answer": "Tom Jobim e Vinícius de Moraes",
+    "tipo": "Música"
+  },
+  {
+    "question": "Qual destes animais não é nativo do Brasil?",
+    "options": [
+      "Arara-azul",
+      "Mico-leão-dourado",
+      "Leão",
+      "Onça-pintada"
+    ],
+    "answer": "Leão",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual é o antônimo de 'bondade'?",
+    "options": [
+      "Benevolência",
+      "Caridade",
+      "Maldade",
+      "Amor"
+    ],
+    "answer": "Maldade",
+    "tipo": "Gramática"
+  },
+  {
+    "question": "Em que ano foi proclamada a República no Brasil?",
+    "options": [
+      "1822",
+      "1889",
+      "1888",
+      "1500"
+    ],
+    "answer": "1889",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes sólidos geométricos tem todas as faces iguais?",
+    "options": [
+      "Cubo",
+      "Pirâmide",
+      "Cilindro",
+      "Cone"
+    ],
+    "answer": "Cubo",
+    "tipo": "Matemática"
+  },
+  {
+    "question": "Qual destes não é considerado um dos 'Big Five' da fauna africana?",
+    "options": [
+      "Leão",
+      "Leopardo",
+      "Rinoceronte",
+      "Tigre"
+    ],
+    "answer": "Tigre",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual destes fortes não fica em Salvador?",
+    "options": [
+      "Forte de Santo Antônio",
+      "Forte de Santa Maria",
+      "Forte de São Marcelo",
+      "Forte dos Reis Magos"
+    ],
+    "answer": "Forte dos Reis Magos",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem fundou a Microsoft?",
+    "options": [
+      "Steve Jobs",
+      "Bill Gates",
+      "Mark Zuckerberg",
+      "Jeff Bezos"
+    ],
+    "answer": "Bill Gates",
+    "tipo": "Tecnologia"
+  },
+  {
+    "question": "Qual é o único mamífero capaz de voar?",
+    "options": [
+      "Morcego",
+      "Esquilo voador",
+      "Ariranha",
+      "Ema"
+    ],
+    "answer": "Morcego",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual é a ciência que estuda os vegetais?",
+    "options": [
+      "Zoologia",
+      "Botânica",
+      "Ecologia",
+      "Geologia"
+    ],
+    "answer": "Botânica",
+    "tipo": "Ciências"
+  },
+  {
+    "question": "Qual escritor brasileiro recebeu o Prêmio Nobel de Literatura?",
+    "options": [
+      "Machado de Assis",
+      "Jorge Amado",
+      "Clarice Lispector",
+      "Nenhum brasileiro recebeu"
+    ],
+    "answer": "Nenhum brasileiro recebeu",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual destes não é um jogo de tabuleiro tradicional?",
+    "options": [
+      "Xadrez",
+      "Damas",
+      "Minecraft",
+      "Gamão"
+    ],
+    "answer": "Minecraft",
+    "tipo": "Entretenimento"
+  },
+  {
+    "question": "Qual foi o primeiro estado brasileiro?",
+    "options": [
+      "Bahia",
+      "Rio de Janeiro",
+      "Pernambuco",
+      "São Vicente"
+    ],
+    "answer": "São Vicente",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é a flor símbolo do Brasil?",
+    "options": [
+      "Rosa",
+      "Orquídea",
+      "Ipê amarelo",
+      "Girassol"
+    ],
+    "answer": "Ipê amarelo",
+    "tipo": "Cultura"
+  },
+  {
+    "question": "A Capoeira tem origem em qual país?",
+    "options": [
+      "Angola",
+      "Portugal",
+      "Brasil",
+      "Jamaica"
+    ],
+    "answer": "Brasil",
+    "tipo": "Cultura"
+  },
+  {
+    "question": "Qual destes instrumentos é típico do frevo?",
+    "options": [
+      "Zabumba",
+      "Sombrinha",
+      "Berimbau",
+      "Sanfona"
+    ],
+    "answer": "Sombrinha",
+    "tipo": "Música"
+  },
+  {
+    "question": "Qual destas não é uma das 7 cores do arco-íris?",
+    "options": [
+      "Vermelho",
+      "Azul",
+      "Rosa",
+      "Verde"
+    ],
+    "answer": "Rosa",
+    "tipo": "Ciências"
+  },
+  {
+    "question": "Em que ano foi descoberto o Brasil?",
+    "options": [
+      "1492",
+      "1500",
+      "1503",
+      "1530"
+    ],
+    "answer": "1500",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destas é uma ave típica do Pantanal?",
+    "options": [
+      "Tucano",
+      "Tuiuiú",
+      "Arara-azul",
+      "Flamingo"
+    ],
+    "answer": "Tuiuiú",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual era a antiga capital do Brasil antes de Brasília?",
+    "options": [
+      "São Paulo",
+      "Salvador",
+      "Rio de Janeiro",
+      "Ouro Preto"
+    ],
+    "answer": "Rio de Janeiro",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes não é um autor do Romantismo brasileiro?",
+    "options": [
+      "José de Alencar",
+      "Castro Alves",
+      "Gonçalves Dias",
+      "Machado de Assis"
+    ],
+    "answer": "Machado de Assis",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual dessas é uma dança típica da região Sul do Brasil?",
+    "options": [
+      "Frevo",
+      "Carimbó",
+      "Bumba meu boi",
+      "Vanerão"
+    ],
+    "answer": "Vanerão",
+    "tipo": "Cultura"
+  },
+  {
+    "question": "Qual destes não é um planeta anão do sistema solar?",
+    "options": [
+      "Plutão",
+      "Ceres",
+      "Haumea",
+      "Netuno"
+    ],
+    "answer": "Netuno",
+    "tipo": "Astronomia"
+  },
+  {
+    "question": "O que caracteriza um mamífero?",
+    "options": [
+      "Possuir asas",
+      "Possuir escamas",
+      "Possuir glândulas mamárias",
+      "Possuir guelras"
+    ],
+    "answer": "Possuir glândulas mamárias",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual destes países não é um membro do Mercosul?",
+    "options": [
+      "Brasil",
+      "Argentina",
+      "Chile",
+      "Uruguai"
+    ],
+    "answer": "Chile",
+    "tipo": "Política"
+  },
+  {
+    "question": "Qual é a capital de Alagoas?",
+    "options": [
+      "Maceió",
+      "Natal",
+      "Recife",
+      "João Pessoa"
+    ],
+    "answer": "Maceió",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem foi D. Pedro II?",
+    "options": [
+      "O primeiro presidente do Brasil",
+      "O segundo imperador do Brasil",
+      "O descobridor do Brasil",
+      "O proclamador da República"
+    ],
+    "answer": "O segundo imperador do Brasil",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes não é um metal?",
+    "options": [
+      "Ouro",
+      "Prata",
+      "Diamante",
+      "Cobre"
+    ],
+    "answer": "Diamante",
+    "tipo": "Química"
+  },
+  {
+    "question": "Qual é a menor unidade gramatical com significado?",
+    "options": [
+      "Fonema",
+      "Sílaba",
+      "Morfema",
+      "Letra"
+    ],
+    "answer": "Morfema",
+    "tipo": "Gramática"
+  },
+  {
+    "question": "Qual destes animais não é um anfíbio?",
+    "options": [
+      "Sapo",
+      "Salamandra",
+      "Lagarto",
+      "Perereca"
+    ],
+    "answer": "Lagarto",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "O que significa a sigla ONU?",
+    "options": [
+      "Ordem Nacional Unificada",
+      "Organização das Nações Unidas",
+      "Operação Nacional Urbana",
+      "Orçamento Nato Unilateral"
+    ],
+    "answer": "Organização das Nações Unidas",
+    "tipo": "Política"
+  },
+  {
+    "question": "Qual destes não foi um movimento artístico?",
+    "options": [
+      "Impressionismo",
+      "Cubismo",
+      "Renascimento",
+      "Atletismo"
+    ],
+    "answer": "Atletismo",
+    "tipo": "Arte"
+  },
+  {
+    "question": "O que são cardiomiopatias?",
+    "options": [
+      "Doenças do coração",
+      "Doenças pulmonares",
+      "Doenças renais",
+      "Doenças hepáticas"
+    ],
+    "answer": "Doenças do coração",
+    "tipo": "Medicina"
+  },
+  {
+    "question": "Qual é o maior predador terrestre do mundo?",
+    "options": [
+      "Leão",
+      "Tigre",
+      "Urso-polar",
+      "Crocodilo do Nilo"
+    ],
+    "answer": "Urso-polar",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual dessas cobras não é venenosa?",
+    "options": [
+      "Jararaca",
+      "Coral verdadeira",
+      "Sucuri",
+      "Cascavel"
+    ],
+    "answer": "Sucuri",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual é o nome do festival de música clássica que ocorre anualmente em Campos do Jordão?",
+    "options": [
+      "Rock in Rio",
+      "Festival de Inverno",
+      "Lollapalooza",
+      "Festival de Verão"
+    ],
+    "answer": "Festival de Inverno",
+    "tipo": "Música"
+  },
+  {
+    "question": "Em que ano foi realizada a primeira Copa do Mundo de Futebol Feminino?",
+    "options": [
+      "1930",
+      "1970",
+      "1991",
+      "2000"
+    ],
+    "answer": "1991",
+    "tipo": "Esportes"
+  },
+  {
+    "question": "Qual é a maior cordilheira do mundo?",
+    "options": [
+      "Andes",
+      "Himalaias",
+      "Montanhas Rochosas",
+      "Serra do Mar"
+    ],
+    "answer": "Himalaias",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Quem fundou a cidade de São Paulo?",
+    "options": [
+      "Pedro Álvares Cabral",
+      "Padre José de Anchieta",
+      "Dom Pedro I",
+      "Mem de Sá"
+    ],
+    "answer": "Padre José de Anchieta",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes não é um tipo de nuvem?",
+    "options": [
+      "Cirrus",
+      "Nimbus",
+      "Cumulus",
+      "Aquarius"
+    ],
+    "answer": "Aquarius",
+    "tipo": "Meteorologia"
+  },
+  {
+    "question": "Qual destes não é um autor do Realismo brasileiro?",
+    "options": [
+      "Machado de Assis",
+      "Aluísio Azevedo",
+      "José de Alencar",
+      "Raul Pompeia"
+    ],
+    "answer": "José de Alencar",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual desses países não tem o português como língua oficial?",
+    "options": [
+      "Angola",
+      "Moçambique",
+      "Cabo Verde",
+      "Espanha"
+    ],
+    "answer": "Espanha",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "O que é um advérbio?",
+    "options": [
+      "Palavra que acompanha o substantivo",
+      "Palavra que substitui o verbo",
+      "Palavra que modifica o verbo, adjetivo ou outro advérbio",
+      "Palavra que liga orações"
+    ],
+    "answer": "Palavra que modifica o verbo, adjetivo ou outro advérbio",
+    "tipo": "Gramática"
+  },
+  {
+    "question": "Qual é a serra mais alta do Brasil?",
+    "options": [
+      "Serra da Mantiqueira",
+      "Serra do Mar",
+      "Serra dos Órgãos",
+      "Serra do Imeri"
+    ],
+    "answer": "Serra do Imeri",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual destes não foi um líder da Independência do Brasil?",
+    "options": [
+      "Dom Pedro I",
+      "José Bonifácio",
+      "Tiradentes",
+      "Princesa Isabel"
+    ],
+    "answer": "Princesa Isabel",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destes é um movimento literário anterior ao Romantismo?",
+    "options": [
+      "Realismo",
+      "Naturalismo",
+      "Arcadismo",
+      "Simbolismo"
+    ],
+    "answer": "Arcadismo",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual destas não é uma língua latina?",
+    "options": [
+      "Português",
+      "Espanhol",
+      "Francês",
+      "Alemão"
+    ],
+    "answer": "Alemão",
+    "tipo": "Linguística"
+  },
+  {
+    "question": "Qual é o planeta mais próximo do Sol?",
+    "options": [
+      "Vênus",
+      "Terra",
+      "Marte",
+      "Mercúrio"
+    ],
+    "answer": "Mercúrio",
+    "tipo": "Astronomia"
+  },
+  {
+    "question": "Qual o nome do processo em que plantas liberam água na forma de vapor?",
+    "options": [
+      "Fotossíntese",
+      "Respiração",
+      "Transpiração",
+      "Germinação"
+    ],
+    "answer": "Transpiração",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual destes é um poema de Castro Alves?",
+    "options": [
+      "Navio Negreiro",
+      "Morte e Vida Severina",
+      "I-Juca Pirama",
+      "O Guarani"
+    ],
+    "answer": "Navio Negreiro",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual destes rios não passa pelo território brasileiro?",
+    "options": [
+      "Rio Amazonas",
+      "Rio Paraná",
+      "Rio São Francisco",
+      "Rio Mississippi"
+    ],
+    "answer": "Rio Mississippi",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual é o país mais populoso do mundo?",
+    "options": [
+      "Índia",
+      "China",
+      "Estados Unidos",
+      "Brasil"
+    ],
+    "answer": "Índia",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Em que ano o Brasil foi sede da Copa do Mundo pela primeira vez?",
+    "options": [
+      "1950",
+      "1962",
+      "1970",
+      "1994"
+    ],
+    "answer": "1950",
+    "tipo": "Esportes"
+  },
+  {
+    "question": "Quem foi o primeiro governador-geral do Brasil?",
+    "options": [
+      "Pedro Álvares Cabral",
+      "Tomé de Souza",
+      "Martim Afonso de Souza",
+      "Mem de Sá"
+    ],
+    "answer": "Tomé de Souza",
+    "tipo": "História"
+  },
+  {
+    "question": "O que é uma conjunção?",
+    "options": [
+      "Palavra que substitui o substantivo",
+      "Palavra que liga orações ou palavras",
+      "Palavra que caracteriza o substantivo",
+      "Palavra que indica ação"
+    ],
+    "answer": "Palavra que liga orações ou palavras",
+    "tipo": "Gramática"
+  },
+  {
+    "question": "Qual destas não é uma das três grandes raças de cães reconhecidas pela FCI?",
+    "options": [
+      "Lupoides",
+      "Molosoides",
+      "Bracoides",
+      "Feloides"
+    ],
+    "answer": "Feloides",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Quem foi Chica da Silva?",
+    "options": [
+      "Uma escrava que se tornou uma figura importante no período colonial",
+      "Uma heroína da independência",
+      "Uma artista plástica modernista",
+      "A primeira mulher eleita para a Academia Brasileira de Letras"
+    ],
+    "answer": "Uma escrava que se tornou uma figura importante no período colonial",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual destas capitais não fica na região Nordeste?",
+    "options": [
+      "Recife",
+      "Salvador",
+      "Natal",
+      "Cuiabá"
+    ],
+    "answer": "Cuiabá",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "O que é um pronome?",
+    "options": [
+      "Palavra que caracteriza o substantivo",
+      "Palavra que substitui ou acompanha o substantivo",
+      "Palavra que indica ação",
+      "Palavra que modifica o verbo"
+    ],
+    "answer": "Palavra que substitui ou acompanha o substantivo",
+    "tipo": "Gramática"
+  },
+  {
+    "question": "Qual destes compositores não é brasileiro?",
+    "options": [
+      "Villa-Lobos",
+      "Tom Jobim",
+      "Carlos Gomes",
+      "Mozart"
+    ],
+    "answer": "Mozart",
+    "tipo": "Música"
+  },
+  {
+    "question": "Qual é a menor partícula de um elemento que mantém suas propriedades químicas?",
+    "options": [
+      "Próton",
+      "Nêutron",
+      "Elétron",
+      "Átomo"
+    ],
+    "answer": "Átomo",
+    "tipo": "Química"
+  },
+  {
+    "question": "Qual destes presidentes não governou durante a Ditadura Militar?",
+    "options": [
+      "Ernesto Geisel",
+      "João Figueiredo",
+      "Costa e Silva",
+      "Juscelino Kubitschek"
+    ],
+    "answer": "Juscelino Kubitschek",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é a capital do estado de Pernambuco?",
+    "options": [
+      "João Pessoa",
+      "Maceió",
+      "Recife",
+      "Natal"
+    ],
+    "answer": "Recife",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual é o nome da principal artéria do corpo humano?",
+    "options": [
+      "Veia cava",
+      "Aorta",
+      "Carótida",
+      "Femoral"
+    ],
+    "answer": "Aorta",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Qual foi o primeiro filme brasileiro a ganhar a Palma de Ouro em Cannes?",
+    "options": [
+      "Central do Brasil",
+      "O Pagador de Promessas",
+      "Cidade de Deus",
+      "Tropa de Elite"
+    ],
+    "answer": "O Pagador de Promessas",
+    "tipo": "Cinema"
+  },
+  {
+    "question": "Quem foi o introdutor da imprensa no Brasil?",
+    "options": [
+      "Dom João VI",
+      "Dom Pedro I",
+      "Dom Pedro II",
+      "Princesa Isabel"
+    ],
+    "answer": "Dom João VI",
+    "tipo": "História"
+  },
+  {
+    "question": "Qual é o maior felino das Américas?",
+    "options": [
+      "Leão",
+      "Leopardo",
+      "Onça-pintada",
+      "Tigre"
+    ],
+    "answer": "Onça-pintada",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Quem escreveu 'O Alienista'?",
+    "options": [
+      "Machado de Assis",
+      "José de Alencar",
+      "Lima Barreto",
+      "Euclides da Cunha"
+    ],
+    "answer": "Machado de Assis",
+    "tipo": "Literatura"
+  },
+  {
+    "question": "Qual foi a primeira telenovela brasileira exibida em cores?",
+    "options": [
+      "Dancin' Days",
+      "O Bem-Amado",
+      "Gabriela",
+      "Roque Santeiro"
+    ],
+    "answer": "O Bem-Amado",
+    "tipo": "Televisão"
+  },
+  {
+    "question": "Qual destas capitais não fica na região Sudeste?",
+    "options": [
+      "São Paulo",
+      "Rio de Janeiro",
+      "Belo Horizonte",
+      "Curitiba"
+    ],
+    "answer": "Curitiba",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual destas não é uma das maiores cidades de São Paulo?",
+    "options": [
+      "Campinas",
+      "Santos",
+      "Ribeirão Preto",
+      "Florianópolis"
+    ],
+    "answer": "Florianópolis",
+    "tipo": "Geografia"
+  },
+  {
+    "question": "Qual destes países não pertence ao BRICS?",
+    "options": [
+      "Brasil",
+      "Rússia",
+      "Canadá",
+      "China"
+    ],
+    "answer": "Canadá",
+    "tipo": "Política"
+  },
+  {
+    "question": "Quem foi Portinari?",
+    "options": [
+      "Um escritor",
+      "Um pintor",
+      "Um músico",
+      "Um político"
+    ],
+    "answer": "Um pintor",
+    "tipo": "Arte"
+  },
+  {
+    "question": "Qual é o maior macaco do Brasil?",
+    "options": [
+      "Sagui",
+      "Macaco-prego",
+      "Macaco-aranha",
+      "Muriqui"
+    ],
+    "answer": "Muriqui",
+    "tipo": "Biologia"
+  },
+  {
+    "question": "Em que ano o Brasil ganhou a primeira medalha de ouro olímpica?",
+    "options": [
+      "1920",
+      "1960",
+      "1984",
+      "2004"
+    ],
+    "answer": "1920",
+    "tipo": "Esportes"
+  }
+]
