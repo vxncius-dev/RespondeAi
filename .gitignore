@@ -9,6 +9,13 @@ android/.gradle/
 android/build/
 android/app/build/
 
+# Ignorar arquivos sensíveis
+android/local.properties
+android/key.properties
+
+# Ignorar arquivos de keystore
+*.keystore
+
 # VS Code settings
 .vscode/
 

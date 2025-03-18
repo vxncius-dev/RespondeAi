@@ -5,6 +5,8 @@ import 'dart:async';
 import 'dart:math';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
+import 'package:audioplayers/audioplayers.dart';
+import 'audio_manager.dart';
 
 class GamePage extends StatefulWidget {
   final String mode;
@@ -14,7 +16,7 @@ class GamePage extends StatefulWidget {
   _GamePageState createState() => _GamePageState();
 }
 
-class _GamePageState extends State<GamePage> {
+class _GamePageState extends State<GamePage> with WidgetsBindingObserver {
   final Random _random = Random();
   List<dynamic>? questions;
   List<int> questionOrder = [];
@@ -28,10 +30,32 @@ class _GamePageState extends State<GamePage> {
   bool revealUsed = false;
   bool eliminateUsed = false;
 
+  final AudioPlayer _effectPlayer = AudioPlayer();
+  bool _isSoundEffectsOn = true;
+  final List<String> _clickSounds = [
+    'assets/sounds/clique1.wav',
+    'assets/sounds/clique2.wav',
+    'assets/sounds/clique3.wav',
+    'assets/sounds/clique4.wav',
+  ];
+  final List<String> _errorSounds = [
+    'assets/sounds/erro1.wav',
+    'assets/sounds/erro2.wav',
+  ];
+
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
+    _loadSoundSettings();
     loadQuestions();
+  }
+
+  Future<void> _loadSoundSettings() async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      _isSoundEffectsOn = prefs.getBool('soundEffects') ?? true;
+    });
   }
 
   Future<void> loadQuestions() async {
@@ -60,6 +84,7 @@ class _GamePageState extends State<GamePage> {
       _shuffleQuestions();
       _shuffleCurrentOptions();
       if (widget.mode == 'timer') _controller.restart(duration: _duration);
+      _effectPlayer.stop();
     });
   }
 
@@ -74,7 +99,44 @@ class _GamePageState extends State<GamePage> {
           ..shuffle(_random);
   }
 
+  Future<void> _playClickSound() async {
+    if (_isSoundEffectsOn) {
+      final randomSound = _clickSounds[_random.nextInt(_clickSounds.length)];
+      try {
+        await _effectPlayer
+            .play(AssetSource(randomSound.replaceFirst('assets/', '')));
+      } catch (e) {
+        debugPrint('Erro ao tocar som de clique: $e');
+      }
+    }
+  }
+
+  Future<void> _playCorrectSound() async {
+    if (_isSoundEffectsOn) {
+      try {
+        await _effectPlayer.stop();
+        await _effectPlayer.play(AssetSource('sounds/acerto1.wav'));
+      } catch (e) {
+        debugPrint('Erro ao tocar som de acerto: $e');
+      }
+    }
+  }
+
+  Future<void> _playErrorSound() async {
+    if (_isSoundEffectsOn) {
+      final randomSound = _errorSounds[_random.nextInt(_errorSounds.length)];
+      try {
+        await _effectPlayer.stop();
+        await _effectPlayer
+            .play(AssetSource(randomSound.replaceFirst('assets/', '')));
+      } catch (e) {
+        debugPrint('Erro ao tocar som de erro: $e');
+      }
+    }
+  }
+
   void checkAnswer(String answer) {
+    _playClickSound();
     setState(() {
       selectedAnswer = answer;
       if (widget.mode == 'timer') _controller.pause();
@@ -83,17 +145,22 @@ class _GamePageState extends State<GamePage> {
           answer == questions![questionOrder[currentQuestionIndex]]['answer'];
       if (isCorrect) {
         score += 5;
+        _playCorrectSound();
         Future.delayed(const Duration(seconds: 1), () {
           nextQuestion();
         });
       } else {
+        _playErrorSound();
         saveScore();
-        showResult();
+        Future.delayed(const Duration(seconds: 1), () {
+          showResult();
+        });
       }
     });
   }
 
   void skipQuestion() {
+    _playClickSound();
     if (!skipUsed) {
       setState(() {
         skipUsed = true;
@@ -104,12 +171,14 @@ class _GamePageState extends State<GamePage> {
   }
 
   void revealAnswer() {
+    _playClickSound();
     if (!revealUsed) {
       setState(() {
         revealUsed = true;
         selectedAnswer =
             questions![questionOrder[currentQuestionIndex]]['answer'];
         if (widget.mode == 'timer') _controller.pause();
+        _playCorrectSound();
         Future.delayed(const Duration(seconds: 1), () {
           nextQuestion();
         });
@@ -118,13 +187,14 @@ class _GamePageState extends State<GamePage> {
   }
 
   void eliminateOptions() {
+    _playClickSound();
     if (!eliminateUsed) {
       setState(() {
         eliminateUsed = true;
         var correctAnswer =
             questions![questionOrder[currentQuestionIndex]]['answer'];
         shuffledOptions = shuffledOptions!
-            .where((option) => option == correctAnswer || Random().nextBool())
+            .where((option) => option == correctAnswer || _random.nextBool())
             .take(2)
             .toList();
       });
@@ -178,7 +248,7 @@ class _GamePageState extends State<GamePage> {
             mainAxisSize: MainAxisSize.min,
             children: [
               const SizedBox(height: 10),
-              Text(
+              const Text(
                 "Fim do Jogo!",
                 style: TextStyle(
                   fontFamily: 'FredokaOne',
@@ -196,7 +266,7 @@ class _GamePageState extends State<GamePage> {
                     ? "Você errou e perdeu!"
                     : "Você fez $score pontos!",
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: const TextStyle(
                     fontFamily: 'FredokaOne',
                     fontSize: 18,
                     color: Colors.black54),
@@ -207,6 +277,7 @@ class _GamePageState extends State<GamePage> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
+                      _playClickSound();
                       Navigator.pop(context);
                       resetGame();
                     },
@@ -228,6 +299,7 @@ class _GamePageState extends State<GamePage> {
                   ),
                   ElevatedButton(
                     onPressed: () {
+                      _playClickSound();
                       Navigator.pop(context);
                       Navigator.pop(context);
                     },
@@ -258,6 +330,25 @@ class _GamePageState extends State<GamePage> {
   }
 
   @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    super.didChangeAppLifecycleState(state);
+    if (state == AppLifecycleState.paused) {
+      AudioManager().pauseBackgroundMusic();
+      debugPrint('Música pausada ao sair do app (GamePage)');
+    } else if (state == AppLifecycleState.resumed) {
+      AudioManager().playBackgroundMusic();
+      debugPrint('Música retomada ao voltar ao app (GamePage)');
+    }
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    _effectPlayer.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     if (questions == null || shuffledOptions == null) {
       return const Scaffold(body: Center(child: CircularProgressIndicator()));
@@ -275,6 +366,7 @@ class _GamePageState extends State<GamePage> {
         leading: IconButton(
           icon: const Icon(Icons.chevron_left, color: Colors.white),
           onPressed: () {
+            _playClickSound();
             saveScore();
             Navigator.pop(context);
           },
@@ -312,7 +404,10 @@ class _GamePageState extends State<GamePage> {
                     autoStart: false,
                     onComplete: () {
                       saveScore();
-                      showResult();
+                      _playErrorSound();
+                      Future.delayed(const Duration(seconds: 1), () {
+                        showResult();
+                      });
                     },
                   ),
                 const SizedBox(height: 30),
@@ -423,12 +518,18 @@ class _GamePageState extends State<GamePage> {
                   ],
                 ),
                 const SizedBox(height: 40),
-                Center(
+                Container(
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 5, horizontal: 20),
+                  decoration: BoxDecoration(
+                    color: Colors.white.withOpacity(0.2),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
                   child: Text(
                     "Pontuação: $score",
                     style: const TextStyle(
                       fontFamily: 'FredokaOne',
-                      fontSize: 22,
+                      fontSize: 24,
                       color: Colors.white,
                     ),
                   ),
@@ -450,19 +551,12 @@ class _GamePageState extends State<GamePage> {
   }) {
     return ElevatedButton.icon(
       onPressed: isDisabled ? null : onPressed,
-      icon: Icon(
-        icon,
-        color: Colors.white,
-      ),
-      label: Text(
-        label,
-        style: const TextStyle(fontSize: 18, color: Colors.white),
-      ),
+      icon: Icon(icon, color: Colors.white),
+      label: Text(label,
+          style: const TextStyle(fontSize: 18, color: Colors.white)),
       style: ElevatedButton.styleFrom(
         backgroundColor: isDisabled ? Colors.grey : color,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(50),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
       ),
     );

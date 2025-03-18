@@ -14,6 +14,7 @@ dependencies:
   shared_preferences: ^2.5.2
   url_launcher: ^6.3.1
   circular_countdown_timer: ^0.2.4
+  audioplayers: ^5.2.1
 
 dev_dependencies:
   flutter_test:
@@ -29,6 +30,16 @@ flutter:
     - assets/bg.png
     - assets/cards.png
     - assets/questions.json
+
+    - assets/sounds/acerto1.wav
+    - assets/sounds/background.wav
+    - assets/sounds/clique1.wav
+    - assets/sounds/clique2.wav
+    - assets/sounds/clique3.wav
+    - assets/sounds/clique4.wav
+    - assets/sounds/erro1.wav
+    - assets/sounds/erro2.wav
+
   
   fonts:
     - family: FredokaOne
