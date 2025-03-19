@@ -2,7 +2,7 @@
 
 ![AppNameCard](https://github.com/user-attachments/assets/ae7717f4-250f-4ff2-8215-4dee8bc82565)
 
-##
+
 
 **RespondeAi** é um jogo de múltipla escolha alimentado por Inteligência Artificial (IA), criado para testar seus conhecimentos de forma divertida e desafiadora. O app oferece uma variedade de questões geradas dinamicamente que proporcionam uma jogabilidade sempre nova a cada partida.
 
