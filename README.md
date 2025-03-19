@@ -17,17 +17,16 @@
 
 ## Ideias para Melhorias Futuras
 
-- ✅ **Novos Modos de Jogo**: Modos como "Contra o Tempo" e "Desafio de Rápidas Respostas" estão sendo planejados.
-- ✅ **Adicionar modos de jogo diferenciados** (Ex: Contra o tempo, Desafio de Rápidas Respostas)  
-- ✅ **Criar um sistema de pontuação e rankings**  
-- ✅ **Efeitos Sonoros**: Melhoramos a experiência imersiva com sons para feedbacks e interações.  
-- ✅ **Melhorias na UI**: Refinamos a interface para uma navegação mais intuitiva e fluida.  
-- ✅ **Correção de Bugs do Áudio**: Resolvemos problemas relacionados à reprodução de áudio para uma experiência sem falhas.  
-- ✅ **Tela de Configurações**: Agora é possível personalizar a experiência do jogo conforme sua preferência.  
-- ⏳ **Ranking**: Implementamos um sistema de ranking para incentivar a competitividade entre os jogadores.  
-- ⏳ **Melhorar a IA para perguntas mais personalizadas e complexas**  
-- ⏳ **Expansão do Banco de Dados**: Estamos aumentando o número de perguntas disponíveis para diversificar os desafios.  
-- ⏳ **IA Aprimorada**: Planejamos integrar uma IA mais avançada para gerar perguntas mais precisas e envolventes.  
+- ✅ **Novos Modos de Jogo**: Modos como "Contra o Tempo" e "Desafio de Respostas Rápidas" já foram criados, proporcionando mais opções para os jogadores.
+- ✅ **Sistema de Pontuação**: Implementação de um sistema de pontuação para premiar os melhores desempenhos.
+- ✅ **Efeitos Sonoros**: Melhoria na experiência imersiva com sons que oferecem feedback e interações.
+- ✅ **Melhorias na UI**: A interface foi refinada para tornar a navegação mais intuitiva e fluida.
+- ✅ **Correção de Bugs do Áudio**: Problemas de reprodução de áudio foram resolvidos para garantir uma experiência sem falhas.
+- ✅ **Tela de Configurações**: Agora é possível personalizar a experiência de jogo conforme a preferência do usuário.
+- ⏳ **Ranking**: Planejamento para adicionar um sistema de ranking, incentivando a competitividade entre os jogadores.
+- ⏳ **Expansão do Banco de Dados**: Ampliação do número de perguntas disponíveis para diversificar os desafios.
+- ⏳ **IA Aprimorada**: Planejamento para integrar uma IA mais avançada, capaz de gerar perguntas mais precisas e envolventes.
+- ⏳ **Login e Autenticação**: Implementação de um sistema de login para que os usuários possam salvar seu progresso e acessar seu perfil.
 
 ## Tecnologias Utilizadas
 
