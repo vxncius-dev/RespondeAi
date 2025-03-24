@@ -5,7 +5,7 @@
 
 **Baixe agora para Android**
 
-<a href='https://respondeai.en.uptodown.com/android' title='Download RespondeAi'>
+<a href='https://respondeai.en.uptodown.com/android' title='Download RespondeAi' target="_blank">
     <img src='https://stc.utdstc.com/img/mediakit/download-aao-small.png' alt='Download RespondeAi'>
 </a>
 <br>
